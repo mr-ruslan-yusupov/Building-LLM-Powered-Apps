@@ -1,0 +1,34 @@
+name: llm_powered_apps_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - requests
+  - jupyterlab
+  - ipywidgets
+  - jupyter-dash
+  - pip:
+    - openai
+    - anthropic
+    - google-generativeai
+    - google-search-results
+    - gradio
+    - gensim
+    - modal
+    - ollama
+    - psutil
+    - setuptools
+    - speedtest-cli
+    - langchain
+    - langchain-core
+    - langchain-classic
+    - langchain-text-splitters
+    - langchain-openai
+    - langchain-anthropic
+    - langchain-ollama 
+    - langchain-chroma
+    - langchain-community
+    - langgraph
+    - -r requirements.txt
